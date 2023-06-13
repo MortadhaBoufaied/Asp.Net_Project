@@ -1,0 +1,59 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<Project.Models.Product>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MultiShop - Online Shop Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+</head>
+<body>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>
+                        <img src="@Url.Content("~/Images/" + product.ImageFileName)" alt="Product Image" height="40" width="40" />
+                    </td>
+                    <td>@product.Name</td>
+                    <td>@product.Category</td>
+                    <td>@product.Price</td>
+                    <td>
+                        <a href="@Url.Action("Details", "Details", new { id = product.Id })" ) class="btn btn-primary">Details</a>
+                        <a href="@Url.Action("Edit", "Edit", new { id = product.Id })" class="btn btn-primary">Edit</a>
+                        <a href="@Url.Action("Delete", "List", new { id = product.Id })" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+            <tr><br /></tr>
+            <tr>
+                <td>
+                    <a asp-controller="Form" asp-action="Form" class="btn btn-primary">Add Product</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

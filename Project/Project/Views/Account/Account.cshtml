@@ -1,0 +1,82 @@
+﻿@{
+    @model List<Project.Models.User>
+}
+<!Doctype html>
+<html>
+    <head>
+    <link href="~/../css/Account.css" rel="stylesheet">
+    <script>
+        $(function () {
+            $('.view_details').click(function () {
+                if ($(this).is(':checked')) {
+                    $(this)
+                        .next('label')
+                        .html('&times;')
+                        .attr('title', 'tap here to close full profile');
+                    $(this)
+                        .parent()
+                        .next('main')
+                        .slideDown('normal');
+                } else {
+                    $(this)
+                        .next('label')
+                        .html('☰')
+                        .attr('title', 'tap here to view full profile');
+                    $(this)
+                        .parent()
+                        .next('main')
+                        .slideUp('fast');
+                }
+            });
+        });
+    </script>
+    </head>
+<body>
+@foreach (var user in Model)
+{
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="profile">
+                <figure>
+                    <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/55758/random-user-31.jpg" alt="" />
+                </figure>
+                <header>
+                    <h1>
+                        @user.Username
+                        <small>Client Happiness Manager</small>
+                    </h1>
+                </header>
+
+                <div class="toggle">
+                    <input type="checkbox" class="view_details" id="view_details">
+                    <label for="view_details" title="tap here to view full profile">☰</label>
+                </div>
+                <main>
+                    <dl>
+                        <dt>Full name</dt>
+                        <dd>Maria Josephina Gonzalez</dd>
+                        <dt>Date of birth</dt>
+                        <dd>August 27, 1987</dd>
+                        <dt>Hometown</dt>
+                        <dd>Barcelona, Spain</dd>
+                        <dt>Occupation</dt>
+                        <dd>Client Happiness Manager</dd>
+                        <dt>Loves</dt>
+                        <dd>Skydiving, Tennis, Romantic dinners</dd>
+                        <dt>Hates</dt>
+                        <dd>Taxes, bosses instead of leaders</dd>
+                        <dt>Social</dt>
+                        <dd>
+                            <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        </dd>
+                    </dl>
+                </main>
+
+            </div> <!-- end profile -->
+
+            <p style="padding: 20px;">Use this for whatever you like. Have fun with it!</p>
+        }
+    }
+</body>
+</html>

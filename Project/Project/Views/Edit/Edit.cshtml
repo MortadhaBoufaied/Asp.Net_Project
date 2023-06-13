@@ -1,0 +1,59 @@
+﻿@model List<Project.Models.Product>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MultiShop - Online Shop Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+</head>
+<body>
+
+    <form method="post" asp-action="EditProduct" class="contact-form bg-light p-30" enctype="multipart/form-data">
+        @foreach (var product in Model)
+        {
+            <input type="hidden" name="Id" value="@product.Id" />
+
+            <div class="control-group">
+                <label class="form-label">Name:</label>
+                <input type="text" class="form-control" name="Name" value="@product.Name" required />
+            </div>
+            <div class="control-group">
+                <label class="form-label">Category:</label>
+                <select class="form-control" name="Category">
+                    <option value="Dresses" selected="@((product.Category == "Dresses"))">Dresses</option>
+                    <option value="Shirts" selected="@((product.Category == "Shirts"))">Shirts</option>
+                    <option value="Jeans" selected="@((product.Category == "Jeans"))">Jeans</option>
+                    <option value="Swimwear" selected="@((product.Category == "Swimwear"))">Swimwear</option>
+                    <option value="Sleepwear" selected="@((product.Category == "Sleepwear"))">Sleepwear</option>
+                    <option value="Sportswear" selected="@((product.Category == "Sportswear"))">Sportswear</option>
+                    <option value="Jumpsuits" selected="@((product.Category == "Jumpsuits"))">Jumpsuits</option>
+                    <option value="Blazers" selected="@((product.Category == "Blazers"))">Blazers</option>
+                    <option value="Jackets" selected="@((product.Category == "Jackets"))">Jackets</option>
+                    <option value="Shoes" selected="@((product.Category == "Shoes"))">Shoes</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label class="form-label">Image:</label>
+                <input type="file" class="form-control" name="imageFile" />
+                <img src="~/Images/@product.ImageFileName" alt="Product Image" width="150" />
+            </div>
+            <div class="control-group">
+                <label class="form-label">Description:</label>
+                <textarea class="form-control" name="Description" rows="8" required>@product.Description</textarea>
+            </div>
+            <div class="control-group">
+                <label class="form-label">Price:</label>
+                <input type="number" step="0.01" class="form-control" name="Price" value="@product.Price.ToString()" required />
+            </div>
+            <br />
+            <div class="control-group">
+                <button type="submit" class="btn btn-primary py-2 px-4">Update Product</button>
+            </div>
+        }
+    </form>
+
+</body>
+</html>

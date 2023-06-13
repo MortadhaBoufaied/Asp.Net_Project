@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Project
+build_property.RootNamespace = Project
+build_property.ProjectDir = C:\Users\Mortadha Boufaied\Desktop\Preparation àLa Certification .NET\Asp.net project\Project\Project\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Mortadha Boufaied\Desktop\Preparation àLa Certification .NET\Asp.net project\Project\Project
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/About/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Account/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Cart/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Contact/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Details/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Edit/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Form/Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/List/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Reset_password/Reset_password.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXRfcGFzc3dvcmRcUmVzZXRfcGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Shop/Shop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxTaG9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Signup/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbnVwXFNpZ251cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9q8ibpt6yd
+
+[C:/Users/Mortadha Boufaied/Desktop/Preparation àLa Certification .NET/Asp.net project/Project/Project/Views/Shared/_LayoutWithoutNavbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRXaXRob3V0TmF2YmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-plzztmnwbk
